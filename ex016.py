@@ -8,6 +8,7 @@ print "现在正要清除%r的内容" % filename
 print "如果不想清除请按Ctrl+c退出否则按任意键继续..."
 raw_input("否则按任意键继续...")
 print "打开文件..."
+# 参数w具有擦除的权限
 target=open(filename,"w")
 print "正在清除..."
 target.truncate()
